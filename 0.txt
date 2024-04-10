@@ -1,0 +1,19 @@
+meet.google.com/wuw-ties-egx Kilian
+
+
+ source ~/.rvm/scripts/rvm
+
+then run this
+
+$ type rvm | head -n 1
+
+rails g devise install
+=======================
+
+Хоз-Tech
+
+Сам себе мастер
+Настройка SMTP Gmail: пошаговая инструкция
+http://localhost:3000//home/sfw/7ed/test/mailers/previews/user_mailer_preview.rb
+================================2024 April 10=============
+cd /home/sfw/Documents/2024/github1
