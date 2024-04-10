@@ -1,0 +1,43 @@
+
+
+cd ~/blog713
+
+4.2. Скажите "привет", Рельсы
+	bin/rails generate controller Articles index --skip-routes
+Давайте откроем файл app/views/articles/index.html.erb и заменим его содержимое на:
+
+<h1>Hello, Rails!</h1>
+
+Откройте config/routes.rb и добавьте следующий маршрут root вверху блока Rails.application.routes.draw:
+
+Rails.application.routes.draw do
+  root "articles#index"
+
+  get "/articles", to: "articles#index"
+end
+
+---
+bin/rails generate model Article title:string body:text
+--
+6.2. Миграции базы данных
+
+
+class CreateArticles < ActiveRecord::Migration[7.0]
+  def change
+    create_table :articles do |t|
+      t.string :title
+      t.text :body
+
+      t.timestamps
+    end
+  end
+end
+git co -b zero-main
+git push --set-upstream origin zero-main
+--
+6.3. Использование модели для взаимодействия с базой данных
+=====================================2024 April 10==============================
+cd /home/sfw/Documents/2024/github1
+
+
+
