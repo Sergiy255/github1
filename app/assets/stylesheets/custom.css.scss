@@ -43,8 +43,11 @@ $gray-medium-light: #eaeaea;
   color: white;
   background-color: #a7fc00; // весенний бутон  
 }
-
+#top_menu > li:hover > ul{
+  display: block;
+}
 .inner_menu{
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
