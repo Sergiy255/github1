@@ -43,11 +43,14 @@ $gray-medium-light: #eaeaea;
   color: white;
   background-color: #a7fc00; // весенний бутон  
 }
-#top_menu > li:hover > ul{
-  display: block;
+#top_menu > li:hover > ul a{
+  opacity: 1;
+}
+#top_menu > li:hover > ul li{
+  height: 40px;
+  opacity: 1;
 }
 .inner_menu{
-  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -57,13 +60,21 @@ $gray-medium-light: #eaeaea;
   white-space: nowrap;
   background-color: #aaf0d1;
 }
-
+.inner_menu > li{
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s, opacity 0.4s;
+}
 .inner_menu > li > a{
   width: 100%;
   display: inline-block;
   padding: 10px 20px; 
   color: inherit;
   text-decoration: none; 
+  height: inherit;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.4s, opacity 0.5s;
 }
 .inner_menu > li > a:hover{
   color: white;
