@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head><h2>2024 April 10  ~/Documents/2024/github1 -b main   </h2>
-
+  <head>
+<h2>2024 April 10  ~/Documents/2024/github1 -b main   </h2>
+ <div id="header">
+  <ul id=top_menu>
+    <li><a href="#">О компании</a></li>
+    <li><a href="#">Услуги</a>
+      <ul class="inner_menu">
+        <li><a href="#">Отремонтируем</a></li>
+        <li><a href="#">Починим</a></li>
+        <li><a href="#">Наладим</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Товары</a>
+      <ul class="inner_menu">
+        <li><a href="#">Медиацентры</a></li>
+        <li><a href="#">Музыкальные центры</a></li>
+        <li><a href="#">Кассетные магнитофоны</a></li>
+        <li><a href="#">Бабинные магнитофоны</a></li>
+        <li><a href="#">Граммофоны</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Популярные вопросы</a></li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+</div>
 
 
     <title><%= full_title(yield(:title)) %></title>
@@ -14,17 +37,9 @@
 
 
   <body>
+ <%= yield %>
 
- <!-- <div id="header">
-  <ul id=top_menu>
-    <li><a href="#">О компании</a></li>
-    <li><a href="#">Услуги</a></li>
-    <li><a href="#">Товары</a></li>
-    <li><a href="#">Популярные вопросы</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-</div>
--->
+
         
   </body>
 </html>

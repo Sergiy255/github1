@@ -1,3 +1,4 @@
+#Листинг 3.16: Добавление маршрута about. КРАСНЫЙ config/routes.rb 
 Rails.application.routes.draw do
   get 'users/new'
 
