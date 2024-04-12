@@ -3,19 +3,12 @@ app/views/static_pages/home.html.erb
 Листинг 3.28: Представление для страницы Home с заголовком на основе встроенного Ruby. ЗЕЛЕНЫЙ app/views/static_pages/home.html.erb   <% provide(:title, "Home") %>
 -->
 
-<!DOCTYPE html>
-<html>
-   <head>
- <div id="header">
-  <ul id=top_menu>
-    <li><a href="#">О компании</a></li>
-    <li><a href="#">Услуги</a></li>
-    <li><a href="#">Товары</a></li>
-    <li><a href="#">Популярные вопросы</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-</div>
-</head>
+<% provide(:title, "Home") %>
 <body>
-  </body>
-</html>
+<h1>Sample App</h1>
+<p>
+  This is the home page for the
+  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+  sample application.
+</p>
+</body>
