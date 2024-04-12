@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>head
-<h2>2024 April 10  ~/Documents/2024/github1 -b main   
-Цветное div id="header" в aplication.html.erb</h2>
+  <head>Это head============
+<h2>2024 April 10  ~/Documents/2024/github1 -b черноевfooter-stackoverflow  
+Цветное div id="header" в aplication.html.erb</h2> /head
  <div id="header">
   <ul id=top_menu>
     <li><a href="#">О компании</a></li>
@@ -38,8 +38,12 @@
 
 
   <body>
- <%= yield %>
-
+=================================================
+ <%= render 'layouts/header' %>
+ <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
 
         
   </body>

@@ -13,12 +13,19 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
-/*============================2024 April 12==========================*/
+body {
+ margin-top: 15px;
+  padding-top: 65px;
+  border-top: 1px solid #eaeaea;
+  color: green;
+}
+/*#777============================2024 April 12==========================*/
 /*Цветное <div id="header"> в aplication.html.erb   */
 *{
   box-sizing: border-box;
 }
 #header{
+
   background-color: #aaf0d1; //магическая мята
   border-bottom: 1px solid gray; 
   text-align: center;
@@ -82,7 +89,12 @@ $gray-medium-light: #eaeaea;
   background-color: #a7fc00; 
 }
 
-
+footer {
+  margin-top: 145px;
+  padding-top: 0px;
+  border-top: 1px solid $gray-medium-light;
+  color: red;  /*$gray-light;*/
+}
 /*============================2024 April 10==========================*/
 /* universal background-color: Gainsboro blue;  blue  yellow*/
 
