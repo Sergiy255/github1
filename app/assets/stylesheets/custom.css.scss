@@ -90,11 +90,76 @@ body {
 }
 
 footer {
-  margin-top: 145px;
+  margin-top: 25px;
   padding-top: 0px;
   border-top: 1px solid $gray-medium-light;
   color: red;  /*$gray-light;*/
 }
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.main-menu{
+  width:500px;
+  height:50px;
+  background-color:#444;
+  display:flex;
+  list-style:none;
+  font-family:arial;
+  color:#eee;
+  justify-content: space-around;
+  margin:auto;
+}
+.main-menu > .main-list{
+  line-height:50px;
+  width:100%;
+  text-align:center;
+  cursor:pointer;
+}
+.main-menu > .main-list:hover{
+  background-color:#eee;
+  color:#555;
+}
+.main-menu > .main-list > .second-menu{
+  display:none;
+  list-style:none;
+}
+.main-menu > .main-list:hover > .second-menu{
+  display:block;
+}
+.main-menu > .main-list > .second-menu > .second-list:hover{
+  background-color:#ddd;
+}
+.main-menu > .main-list > .second-menu > .second-list{
+  height:50px;
+  background-color:#eee;
+}
+.main-menu > .main-list > .second-menu > .second-list > .third-menu{
+  display:none;
+  margin-left:100%;
+  margin-top:-50px;
+  list-style:none;
+  color:#eee;
+}
+.main-menu > .main-list > .second-menu > .second-list > .third-menu > .third-list{
+  text-align:center;
+  width: 150px;
+  background-color:#777;
+}
+.main-menu > .main-list > .second-menu > .second-list > .third-menu > .third-list:hover{
+  background-color:#566
+}
+.main-menu > .main-list > .second-menu > .second-list:hover > .third-menu{
+  display:block;
+}
+
+
+
+
+
+
+
 /*============================2024 April 10==========================*/
 /* universal background-color: Gainsboro blue;  blue  yellow*/
 
