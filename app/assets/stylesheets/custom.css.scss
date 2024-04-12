@@ -14,7 +14,7 @@ $gray-medium-light: #eaeaea;
 }
 
 /*============================2024 April 12==========================*/
-
+/*Цветное <div id="header"> в aplication.html.erb   */
 *{
   box-sizing: border-box;
 }
@@ -122,9 +122,11 @@ h1 {
 		center*/
 h2 {
 color: red;
-  font-size: 2.2em;
+  font-size: 1.6em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+margin-top: 8px;
+  margin-bottom: 10px;
+
   text-align: left;
   font-weight: normal;
   /*color: $gray-light; */
@@ -151,22 +153,22 @@ text-align: justify; /* Выравнивание по ширине */
 
 /* header 
 
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
-}    */
+	#logo {
+	  float: left;
+	  margin-right: 10px;
+	  font-size: 1.7em;
+	  color: white;
+	  text-transform: uppercase;
+	  letter-spacing: -1px;
+	  padding-top: 9px;
+	  font-weight: bold;
+	  &:hover {
+	    color: white;
+	    text-decoration: none;
+	  }
+	}    */
 
-/* footer */
+/* footer 
 
 footer {
   margin-top: 45px;
@@ -191,6 +193,9 @@ footer {
 						    }
 				     }
                               }
+
+*/
+
 @media (max-width: 800px) {
   footer {
     small {
