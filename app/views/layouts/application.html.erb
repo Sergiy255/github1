@@ -2,33 +2,9 @@
 <html>
   <head>Это head============
 <h2>2024 April 10  ~/Documents/2024/github1 -b черноевfooter-stackoverflow  
-Цветное div id="header" в aplication.html.erb</h2> /head
- <div id="header">
-<!--  <ul id=top_menu> -->
-<ul class="main-menu">
+ в aplication.html.erb</h2> &nbsp &nbsp &nbsp  head закрыт /head
 
-
-    <li><a href="#">О компании</a></li>
-    <li><a href="#">Услуги</a>
-      <ul class="inner_menu">
-        <li><a href="#">Отремонтируем</a></li>
-        <li><a href="#">Починим</a></li>
-        <li><a href="#">Наладим</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Товары</a>
-      <ul class="inner_menu">
-        <li><a href="#">Медиацентры</a></li>
-        <li><a href="#">Музыкальные центры</a></li>
-        <li><a href="#">Кассетные магнитофоны</a></li>
-        <li><a href="#">Бабинные магнитофоны</a></li>
-        <li><a href="#">Граммофоны</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Популярные вопросы</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-</div>
+ 
 
 
     <title><%= full_title(yield(:title)) %></title>
@@ -41,24 +17,48 @@
 
 
   <body>
-=================================================
- <%= render 'layouts/header' %>
+=============================================<p>
+====начало body
+
+<div class="container">
+	<div id="header">
+		Цветное div id="header" &nbsp&nbsp&nbsp&nbsp&nbsp
+	<!--  <ul id=top_menu> -->
+	<ul class="main-menu">
+
+	    <li><a href="#">О компании</a></li>
+
+	    <li><a href="#">Услуги</a>
+	      <ul class="inner_menu">
+		<li><a href="#">Отремонтируем</a></li>
+		<li><a href="#">Починим</a></li>
+		<li><a href="#">Наладим</a></li>
+	      </ul>
+	    </li>
+	    <li><a href="#">Товары</a>
+	      <ul class="inner_menu">
+		<li><a href="#">Медиацентры</a></li>
+		<li><a href="#">Музыкальные центры</a></li>
+		<li><a href="#">Кассетные магнитофоны</a></li>
+		<li><a href="#">Бабинные магнитофоны</a></li>
+		<li><a href="#">Граммофоны</a></li>
+	      </ul>
+	    </li>
+	    <li><a href="#">Популярные вопросы</a></li>
+	    <li><a href="#">Контакты</a></li>
+	  </ul>
+	</div> 
+</div>
+
+
+
  <div class="container">
       <%= yield %>
       <%= render 'layouts/footer' %>
     </div>
 
-        
-  </body>
-</html>
- <!--<%#= render 'layouts/header' %>
-   			  <header class="navbar navbar-fixed-top navbar-inverse">
-      			<div class="navbar-inner"> 
-		              <%#= link_to "2024 April 10  github1", '#', id: "logo" %>
-<div class="container">
- <%#= yield %>
- <%#= render 'layouts/footer' %>
-    </div>
+     
+
 		   <!--  <nav>
 		  <ul class="nav pull-right">  
 		      <li><%= link_to "Home",    '#' %></li>
@@ -68,3 +68,5 @@
 		  </nav>
 		</div>
 	      </div>-->
+ </body>
+</html>
