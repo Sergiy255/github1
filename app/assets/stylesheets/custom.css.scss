@@ -101,7 +101,7 @@ absolute ===#top_menu > li > .inner_menu > li > .inner_submenu {== #top_menu > .
  
 display: none;
  position: absolute;
-  top: 100%;
+  top: 0%;
   left: 0;
   list-style: none;
   padding-left: 0;
@@ -112,12 +112,29 @@ display: none;
 
 
 
-#top_menu > li > .inner_menu > li:hover > .inner_submenu {
-  display: block; /* Показывать подменю третьего уровня при наведении на пункт "Отремонтируем" */
-  position: absolute;
-  top: 0;
-  left: 100%; /* Поместить подменю справа от пункта меню */
+#top_menu > li > .inner_menu > li > .inner_submenu > li:hover {
+  background-color: #a7fc00; /* Изменение цвета фона при наведении на пункт подменю третьего уровня */
 }
+
+#top_menu > li > .inner_menu > li:hover > .inner_submenu {
+  display: block; /* Показ подменю третьего уровня при наведении на пункт "Отремонтируем" */
+  //position: absolute;
+  //top: 0;
+ // left: 100%;
+}
+
+
+
+
+#top_menu > li > .inner_menu > li:hover > .inner_submenu > li:hover {
+  background-color: #a7fc00; /* Изменяем цвет фона при наведении на пункт подменю третьего уровня */
+}
+
+/*
+#top_menu > li > .inner_menu li {
+  height: 40px;  Установка высоты пунктов меню первого уровня при наведении на пункт "Услуги" 
+  opacity: 1;  Установка непрозрачности пунктов меню первого уровня при наведении на пункт "Услуги" 
+}*/
 
 
 
