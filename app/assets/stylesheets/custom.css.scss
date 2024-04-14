@@ -58,6 +58,8 @@ body {
   height: 40px;
   opacity: 1;
 }
+
+		/*  .inner_menu    */
 .inner_menu{
   position: absolute;
   top: 100%;
@@ -68,6 +70,8 @@ body {
   white-space: nowrap;
   background-color: #aaf0d1;
 }
+
+
 .inner_menu > li{
   height: 0;
   opacity: 0;
@@ -89,11 +93,33 @@ body {
   background-color: #a7fc00; 
 }
 
-/*====================April 14 ====================================== */
+/*====================April 14 
+.inner_menu{
+absolute ====================================== */
+
 #top_menu > li > .inner_menu > li > .inner_submenu {
-  display: none;
-  position: absolute;
+  
+display: none;
+ position: relative;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  white-space: nowrap;
+  background-color: #aaf0d1;
+
+
 }
+
+
+
+#top_menu > li > .inner_menu > .inner_submenu >  li:hover {
+ 
+}
+
+ 
+
 
 #top_menu > li > .inner_menu > li:hover > .inner_submenu {
  
