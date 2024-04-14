@@ -92,11 +92,10 @@ body {
 
 #top_menu > li > .inner_menu > li > .inner_submenu {
   display: none;
+ display: block;
 }
 
-#top_menu > li > .inner_menu > li:hover > .inner_submenu {
-  display: block;
-}
+
 
 
 
