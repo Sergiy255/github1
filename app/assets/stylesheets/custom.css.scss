@@ -25,11 +25,11 @@ body {
   box-sizing: border-box;
 }
 #header{
-
   background-color: #aaf0d1; //магическая мята
-
+  border-bottom: 1px solid gray; 
   text-align: center;
 }
+			/*top_menu*/
 #top_menu{
   display: inline-block;
   list-style: none;
@@ -88,6 +88,19 @@ body {
   color: white;
   background-color: #a7fc00; 
 }
+
+
+#top_menu > li > .inner_menu > li > .inner_submenu {
+  display: none;
+}
+
+#top_menu > li > .inner_menu > li:hover > .inner_submenu {
+  display: block;
+}
+
+
+
+
 
 
 

@@ -37,7 +37,7 @@ git push --set-upstream origin zero-main
 --
 6.3. Использование модели для взаимодействия с базой данных
 =====================================2024 April 10==============================
-cd /home/sfw/Documents/2024/github1
+cd /home/sfw/Documents/2024/плавное-выпадающееgithub1
 
 
 
