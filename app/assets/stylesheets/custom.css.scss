@@ -95,12 +95,12 @@ body {
 
 /*====================April 14 
 .inner_menu{
-absolute ====================================== */
+absolute ===#top_menu > li > .inner_menu > li > .inner_submenu {== #top_menu > .inner_menu > .inner_submenu { ======== */
 
 #top_menu > li > .inner_menu > li > .inner_submenu {
-  
+ 
 display: none;
- position: relative;
+ position: absolute;
   top: 100%;
   left: 0;
   list-style: none;
@@ -108,23 +108,16 @@ display: none;
   text-align: left;
   white-space: nowrap;
   background-color: #aaf0d1;
-
-
 }
 
-
-
-#top_menu > li > .inner_menu > .inner_submenu >  li:hover {
- 
-}
-
- 
 
 
 #top_menu > li > .inner_menu > li:hover > .inner_submenu {
- 
+  display: block; /* Показывать подменю третьего уровня при наведении на пункт "Отремонтируем" */
+  position: absolute;
+  top: 0;
+  left: 100%; /* Поместить подменю справа от пункта меню */
 }
-
 
 
 
