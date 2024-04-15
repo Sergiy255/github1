@@ -1,38 +1,48 @@
-<!--#Листинг 5.10: Партиал для заголовка сайта. app/views/layouts/_header.html.erbЛистинг 5.23: Партиал заголовка со ссылками. app/views/layouts/_header.html.erb  -->
+<!--#Листинг 5.10: Партиал для заголовка сайта. app/views/layouts/_header.html.erbЛистинг 5.23: Партиал заголовка со ссылками. app/views/layouts/_header.html.erb  
+https://digital-boom.ru/coding/css-haki/vypadayushhee-menyu-css.html?unapproved=23835&moderation-hash=a9d12998772b31c498b2896eb752222d#comment-23835 Плавное выпадающее меню – это просто...
+Источник: https://digital-boom.ru/coding/css-haki/vypadayushhee-menyu-css.html?unapproved=23835&moderation-hash=a9d12998772b31c498b2896eb752222d#comment-23835
+-->
 
 			<!--  <li><a href="#">Отремонтируем быстро</a></li>
             		<li><a href="#">Отремонтируем быстро</a></li> -->
+
+  <head>Это head в _header============
+<h2>2024 April 10, 15 11:54  ~/Documents/2024/github1 -b переносвheader-закрывает-
+  
+ в aplication.html.erb</h2> &nbsp &nbsp &nbsp  head в _header закрыт /head
+
+
+
 
 <div id="header">
    
       <%= link_to "April 15", '#', id: "logo" %>
 
-
   <ul id=top_menu>
-    <li><a href="#">О компании</a></li>
-    <li><a href="#">Услуги</a>
+    <li><a href="#">О компании</a></li>  <!-- Первый уровень -->
+    <li><a href="#">Услуги</a>           <!-- Первый уровень -->
  		
       <ul class="inner_menu">
-	<li><a href="#">Отремонтируем</a>
+	<li><a href="#">Отремонтируем</a>   <!-- Второй уровень -->
 		      <ul class="inner_submenu">
 			    <li><a href="#">Отремонтируем быстро</a></li>
 			    <li><a href="#">Отремонтируем качественно</a></li>
 		      </ul>
-	        <li><a href="#">Починим</a></li>
-		<li><a href="#">Наладим</a></li>
+	        <li><a href="#">Починим</a></li>   <!-- Второй уровень -->
+		<li><a href="#">Наладим</a></li>   <!-- Второй уровень -->
        	</ul>
    
-    <li><a href="#">Товары</a>
+    <li><a href="#">Товары</a>  <!-- Первый уровень -->
       <ul class="inner_menu">
-        <li><a href="#">Медиацентры</a></li>
-        <li><a href="#">Музыкальные центры</a></li>
-        <li><a href="#">Кассетные магнитофоны</a></li>
-        <li><a href="#">Бабинные магнитофоны</a></li>
+        <li><a href="#">Медиацентры</a></li>		<!-- Второй уровень -->
+        <li><a href="#">Музыкальные центры</a></li>	<!-- Второй уровень -->
+        <li><a href="#">Кассетные магнитофоны</a></li>  <!-- Второй уровень -->
+        <li><a href="#">Бабинные магнитофоны</a></li>	<!-- Второй уровень -->
         <li><a href="#">Граммофоны</a></li>
       </ul>
     </li>
-    <li><a href="#">Популярные вопросы</a></li>
-    <li><a href="#">Контакты</a></li>
+    <li><a href="#">Популярные вопросы</a></li>         <!-- Первый уровень -->
+    <li><a href="#">Контакты</a></li>      		<!-- Первый уровень -->
   </ul>
 </div>
 
