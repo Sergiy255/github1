@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>Это head============
-<h2>2024 April 10, 15 11:54  ~/Documents/2024/github1 -b закрывает-
+  <head>Это head в application============
+<h2>2024 April 10, 15 11:54  ~/Documents/2024/github1 -b переносвheader-закрывает-
   
- в aplication.html.erb</h2> &nbsp &nbsp &nbsp  head закрыт /head
+ в aplication.html.erb</h2> &nbsp &nbsp &nbsp  head в application закрыт /head
 
  
 
@@ -17,58 +17,18 @@
   </head>
 
 
-  <body>
+  
 =============================================<p>
 ====начало body
-<!--  <li><a href="#">Отремонтируем быстро</a></li>
-            <li><a href="#">Отремонтируем быстро</a></li> -->
-
-<div id="header">
-  <ul id=top_menu>
-    <li><a href="#">О компании</a></li>
-    <li><a href="#">Услуги</a>
- 		
-      <ul class="inner_menu">
-	<li><a href="#">Отремонтируем</a>
-              <ul class="inner_submenu">
-		    <li><a href="#">Отремонтируем быстро</a></li>
-		    <li><a href="#">Отремонтируем качественно</a></li>
-              </ul>
-
-
-
-
-
-
-		<li><a href="#">Починим</a></li>
-		 <li><a href="#">Наладим</a></li>
-       	</ul>
-   
-    <li><a href="#">Товары</a>
-      <ul class="inner_menu">
-        <li><a href="#">Медиацентры</a></li>
-        <li><a href="#">Музыкальные центры</a></li>
-        <li><a href="#">Кассетные магнитофоны</a></li>
-        <li><a href="#">Бабинные магнитофоны</a></li>
-        <li><a href="#">Граммофоны</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Популярные вопросы</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-</div>
-
-
-
-
-
-
+<body>
+<%= render 'layouts/header' %>
 
  <div class="container">
       <%= yield %>
       <%= render 'layouts/footer' %>
     </div>
-
+ </body>
+</html>
      
 
 		   <!--  <nav>
@@ -80,5 +40,4 @@
 		  </nav>
 		</div>
 	      </div>-->
- </body>
-</html>
+
