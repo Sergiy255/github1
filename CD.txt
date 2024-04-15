@@ -41,3 +41,6 @@ cd /home/sfw/Documents/2024/github1
 
 
 
+======================April 15==============================
+
+cd /home/sfw/Documents/2024/плавное-выпадающееgithub1
